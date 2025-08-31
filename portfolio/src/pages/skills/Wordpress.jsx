@@ -3,9 +3,14 @@ import "./Skill.css";
 
 function Wordpress() {
   return (
-    <div>
-      <h2>WordPress</h2>
-      <p>I have experience building and customizing websites with WordPress, including themes and plugins.</p>
+    <div className="skill-container">
+      <h1 className="skill-title">WordPress</h1>
+      <div className="skill-description">
+        <p>
+          I have worked on WordPress for building and customizing websites,
+          creating plugins, and managing content efficiently.
+        </p>
+      </div>
     </div>
   );
 }

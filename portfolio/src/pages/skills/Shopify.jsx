@@ -3,9 +3,14 @@ import "./Skill.css";
 
 function Shopify() {
   return (
-    <div>
-      <h2>Shopify</h2>
-      <p>I have worked with Shopify to build and customize e-commerce solutions for businesses.</p>
+    <div className="skill-container">
+      <h1 className="skill-title">Shopify</h1>
+      <div className="skill-description">
+        <p>
+          I work with Shopify to develop custom apps, manage storefronts,
+          and enhance e-commerce functionalities for businesses.
+        </p>
+      </div>
     </div>
   );
 }

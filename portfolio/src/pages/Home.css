@@ -1,0 +1,74 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fullscreen container */
+.home-container {
+  width: 100vw;                 /* full width */
+  height: 100vh;                /* full height */
+  display: flex;
+  flex-direction: column;       /* stack vertically */
+  justify-content: center;      /* center vertically */
+  align-items: center;          /* center horizontally */
+  text-align: center;
+  background: #1e1e1e;          /* dark background */
+  color: #fff;                  /* white text */
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;             /* no extra scroll */
+}
+
+/* Title */
+.home-container h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/* Description */
+.home-description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  color: #ddd;
+}
+
+/* Download CV Button */
+.download-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background-color: #ff9800;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.download-btn:hover {
+  background-color: #00070e;
+  transform: scale(1.05);
+}
+
+/* Waving hand animation */
+.wave-hand {
+  display: inline-block;
+  transform-origin: 70% 70%;
+  animation: wave 2s infinite;
+}
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}

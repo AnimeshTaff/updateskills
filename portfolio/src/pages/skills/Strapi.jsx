@@ -3,9 +3,14 @@ import "./Skill.css";
 
 function Strapi() {
   return (
-    <div>
-      <h2>Strapi</h2>
-      <p>Strapi is a headless CMS I use for creating APIs and managing content for web applications.</p>
+    <div className="skill-container">
+      <h1 className="skill-title">Strapi</h1>
+      <div className="skill-description">
+        <p>
+          Strapi is a headless CMS I use to build APIs, manage content, and
+          integrate with modern frontends like React and Next.js.
+        </p>
+      </div>
     </div>
   );
 }

@@ -1,14 +1,26 @@
 import React from "react";
-import "./skills/skill.css";
+import "./Home.css"; // ✅ use Home.css
 
 function Home() {
   return (
-    <div className="skill-container">
-      <h1>Hi, I'm Animesh Kumar 👋</h1>
-      <div>
+    <div className="home-container">
+      <h1>
+        Hi, I'm Animesh Kumar{" "}
+        <span className="wave-hand">👋</span>
+      </h1>
+      <div className="home-description">
         A Backend Developer with 2 years of experience in building scalable web
         applications.
       </div>
+
+      {/* Download CV Button */}
+      <a
+        href="/Animesh_Kumar_CV.pdf" // put CV in public folder
+        download
+        className="download-btn"
+      >
+        Download CV
+      </a>
     </div>
   );
 }
