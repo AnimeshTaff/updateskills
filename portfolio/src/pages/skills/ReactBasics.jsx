@@ -1,6 +1,7 @@
 import React from "react";
 import "./Skill.css";
 
+
 function ReactBasics() {
   return (
     <div className="skill-container">

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Skill.css";
 
+
 function Wordpress() {
   return (
     <div className="skill-container">

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Skill.css";
 
+
 function Redis() {
   return (
     <div className="skill-container">
