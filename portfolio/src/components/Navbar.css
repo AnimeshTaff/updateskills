@@ -83,3 +83,52 @@
   visibility: visible;
   transform: translateY(0);
 }
+
+/* Navbar search input */
+.navbar-search {
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background: #444;
+  color: white;
+}
+
+.navbar-search::placeholder {
+  color: #ccc;
+}
+
+/* Optional: change background on focus */
+.navbar-search:focus {
+  background: #555;
+}
+/* Container for search results */
+.navbar-search-container {
+  position: relative;
+}
+
+.search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px; /* Adjust as needed */
+  background: #333;
+  border-radius: 6px;
+  margin-top: 5px;
+  padding: 5px 0;
+  list-style: none;
+  z-index: 1000;
+}
+
+.search-results li {
+  padding: 5px 10px;
+  cursor: pointer;
+  color: white;
+  white-space: nowrap;
+}
+
+.search-results li:hover {
+  background: #444;
+  color: #ff9800;
+}
