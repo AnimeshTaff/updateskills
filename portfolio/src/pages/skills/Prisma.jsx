@@ -1,5 +1,6 @@
 import React from "react";
-import "./skill.css";
+import "./Skill.css";
+
 
 function Prisma() {
   return (

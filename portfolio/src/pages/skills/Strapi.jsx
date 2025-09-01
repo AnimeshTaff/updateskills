@@ -2,6 +2,7 @@ import React from "react";
 import "./Skill.css";
 
 
+
 function Strapi() {
   return (
     <div className="skill-container">
