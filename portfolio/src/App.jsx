@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
 import "./App.css";
 
 // Skills
@@ -35,6 +36,7 @@ function App() {
           <Route path="/nodejs" element={<Nodejs />} />
           <Route path="/htmlcss" element={<HtmlCss />} />
           <Route path="/react" element={<ReactBasics />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </div>
