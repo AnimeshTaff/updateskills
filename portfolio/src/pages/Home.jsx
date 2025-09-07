@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="home-container">
       <h1>
-        Hi, I'm Animesh Kumar{" "}
+        Hi, I'm Animesh Kumar mazumdar{" "}
         <span className="wave-hand">👋</span>
       </h1>
       <div className="home-description">
