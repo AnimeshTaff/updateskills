@@ -1,5 +1,6 @@
 import React from "react";
 import "./Skill.css";
+import Footer from "../../components/Footer";
 
 
 
@@ -13,6 +14,7 @@ function Strapi() {
           integrate with modern frontends like React and Next.js.
         </p>
       </div>
+      <Footer />
     </div>
   );
 }

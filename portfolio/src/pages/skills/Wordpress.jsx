@@ -1,5 +1,6 @@
 import React from "react";
 import "./Skill.css";
+import Footer from "../../components/Footer";
 
 
 
@@ -13,6 +14,7 @@ function Wordpress() {
           creating plugins, and managing content efficiently.
         </p>
       </div>
+      <Footer />
     </div>
   );
 }

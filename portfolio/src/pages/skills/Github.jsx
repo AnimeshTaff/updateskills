@@ -1,5 +1,6 @@
 import React from "react";
 import "./Skill.css";
+import Footer from "../../components/Footer";
 
 
 
@@ -13,6 +14,7 @@ function Github() {
           project repositories with best practices.
         </p>
       </div>
+      <Footer />
     </div>
   );
 }

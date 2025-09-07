@@ -1,5 +1,6 @@
 import React from "react";
 import "./Skill.css";
+import Footer from "../../components/Footer";
 
 
 
@@ -14,6 +15,7 @@ function Redis() {
           handle session management.
         </p>
       </div>
+      <Footer />
     </div>
   );
 }

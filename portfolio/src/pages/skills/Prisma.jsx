@@ -1,6 +1,6 @@
 import React from "react";
 import "./Skill.css";
-
+import Footer from "../../components/Footer";
 
 function Prisma() {
   return (
@@ -13,6 +13,7 @@ function Prisma() {
           applications.
         </p>
       </div>
+      <Footer />
     </div>
   );
 }

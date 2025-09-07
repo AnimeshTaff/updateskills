@@ -1,5 +1,6 @@
 import React from "react";
 import "./Skill.css";
+import Footer from "../../components/Footer";
 
 function MySQL() {
   return (
@@ -23,6 +24,7 @@ function MySQL() {
           for real-world applications.
         </p>
       </div>
+      <Footer />
     </div>
   );
 }
