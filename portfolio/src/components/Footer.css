@@ -1,0 +1,66 @@
+.footer {
+  background: #0d1117;        /* dark background */
+  color: white;
+  padding: 2rem 1rem;         /* bigger padding so it looks like a footer */
+  border-radius: 0;           /* no rounded edges for full-width footer */
+  width: 100%;                /* span full window width */
+  max-width: 100%;            /* ensure no cutoff */
+  font-size: 0.9rem;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.2);
+  margin-top: 2rem;           /* spacing from content */
+}
+
+.footer-title {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #ff9800;
+  text-align: center;
+}
+
+.footer-subtitle {
+  margin-bottom: 1rem;
+  color: #ccc;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin: 0 auto;             /* center form horizontally */
+}
+
+.footer-form input,
+.footer-form textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+.footer-submit {
+  background-color: #ff9800;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footer-submit:hover {
+  background-color: #e68a00;
+}
+
+.footer-bottom {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: #aaa;
+  text-align: center;
+}
