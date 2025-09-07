@@ -18,6 +18,7 @@ function Navbar() {
     { name: "Node.js", path: "/nodejs" },
     { name: "HTML & CSS", path: "/htmlcss" },
     { name: "React Basics", path: "/react" },
+    { name: "My SQL", path: "/MySQL" },
   ];
 
   // Filter skills based on search term (min 3 letters)

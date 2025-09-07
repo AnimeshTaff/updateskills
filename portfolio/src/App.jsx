@@ -16,6 +16,7 @@ import Shopify from "./pages/skills/Shopify";
 import Nodejs from "./pages/skills/Nodejs";
 import HtmlCss from "./pages/skills/HtmlCss";
 import ReactBasics from "./pages/skills/ReactBasics";
+import MySQL from "./pages/skills/MySQL";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <Route path="/htmlcss" element={<HtmlCss />} />
           <Route path="/react" element={<ReactBasics />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/mysql" element={<MySQL />} />
         </Routes>
       </div>
     </div>
