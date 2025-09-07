@@ -20,7 +20,7 @@ body, html {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 2rem;
+  padding-top: 210px;
   box-sizing: border-box;
 }
 
@@ -41,7 +41,7 @@ body, html {
 
 /* Description Box */
 .skill-description {
-  max-width: 850px;
+  max-width: 980px;
   background-color: #161b22; /* different from main background */
   padding: 1.5rem 2rem;
   border-radius: 12px;
@@ -54,6 +54,19 @@ body, html {
   color: #e0e0e0;
   margin: 0;
 }
+
+.skill-description ul {
+  list-style: none;          /* Removes default bullets */
+  padding-left: 1.2rem;      /* Add left padding for custom checkmarks */
+  text-align: left;          /* Align list text to left */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.skill-description li {
+  margin-bottom: 0.5rem;     /* Spacing between items */
+}
+
 
 /* Fade In Animation */
 @keyframes fadeIn {
