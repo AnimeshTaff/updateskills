@@ -1,13 +1,13 @@
 .footer {
-  background: #0d1117;        /* dark background */
+  background: #000000;        /* dark background */
   color: white;
-  padding: 2rem 1rem;         /* bigger padding so it looks like a footer */
+  padding: 0.7rem 0.5rem;         /* bigger padding so it looks like a footer */
   border-radius: 0;           /* no rounded edges for full-width footer */
   width: 100%;                /* span full window width */
   max-width: 100%;            /* ensure no cutoff */
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   box-shadow: 0 -2px 8px rgba(0,0,0,0.2);
-  margin-top: 2rem;           /* spacing from content */
+  margin-top: 1rem;           /* spacing from content */
 }
 
 .footer-title {

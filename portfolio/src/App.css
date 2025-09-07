@@ -16,14 +16,14 @@ body, html {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 2rem;
+  padding-top: 80px; 
   box-sizing: border-box;
 }
 
 .page-title {
   font-size: 2.5rem;
   font-weight: bold;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   animation: fadeInUp 1s ease-in-out;
 }
 
